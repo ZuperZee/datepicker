@@ -40,5 +40,10 @@
     "rollup-plugin-typescript2": "^0.32.1",
     "typescript": "^4.7.4",
     "vite": "^3.0.3"
+  },
+  "dependencies": {
+    "air-datepicker": "^3.4.0",
+    "flatpickr": "^4.6.13",
+    "litepicker": "^2.0.12"
   }
 }

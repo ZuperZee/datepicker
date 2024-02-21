@@ -63,6 +63,7 @@ const datePickerElement: HTMLInputElement | null = htmlNode.querySelector(
 );
 if (datePickerElement) {
   datePicker = new AirDatepicker(datePickerElement, {
+    container: htmlNode.lastElementChild as HTMLDivElement,
     minDate: minDate,
     maxDate: maxDate,
     firstDay: 1,
@@ -121,6 +122,7 @@ const timePickerElement: HTMLInputElement | null = htmlNode.querySelector(
 );
 if (timePickerElement) {
   timePicker = new AirDatepicker(timePickerElement, {
+    container: htmlNode.lastElementChild as HTMLDivElement,
     onlyTimepicker: true,
     timepicker: true,
     timeFormat: "HH:mm",
